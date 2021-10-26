@@ -2,13 +2,15 @@
 
 > author = RQDYSGN
 >
-> date = 2021.10.11
+> date = 2021.10.26
 >
 > version = 0.3
 
 #### 1. 简介
 
 ​	基于python3.7环境，通过py原生库和leetcode上的一些习题构建的超小型py lib。
+
+​	v 0.1于2021.10.11，完成了初步的安装和测试功能。
 
 ​	v 0.3更新了mcmc的两个常用算法：Metropolis-Hasting算法、Gibbs采样。
 
