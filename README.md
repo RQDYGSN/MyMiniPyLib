@@ -21,56 +21,24 @@
 #### 2. 结构
 
 ```tex
-${project_name}/
-|-- __init__.py
-|-- __pycache__
-|   `-- __init__.cpython-37.pyc
-|-- main.py
-|-- minipy
-|   |-- __init__.py
-|   |-- __pycache__
-|   |   |-- __init__.cpython-37.pyc
-|   |   `-- math.cpython-37.pyc
-|   |-- geometry
-|   |   |-- Hypersphere.py
-|   |   |-- Point.py
-|   |   |-- __init__.py
-|   |   `-- __pycache__
-|   |       |-- Hypersphere.cpython-37.pyc
-|   |       |-- Point.cpython-37.pyc
-|   |       `-- __init__.cpython-37.pyc
-|   |-- graph
-|   |   |-- __init__.py
-|   |   |-- __pycache__
-|   |   |   |-- __init__.cpython-37.pyc
-|   |   |   `-- graph.cpython-37.pyc
-|   |   `-- graph.py
-|   |-- list
-|   |   |-- __init__.py
-|   |   |-- __pycache__
-|   |   |   |-- __init__.cpython-37.pyc
-|   |   |   `-- numList.cpython-37.pyc
-|   |   `-- numList.py
-|   |-- math.py
-|   `-- string
-|       |-- SingleString.py
-|       |-- __init__.py
-|       `-- __pycache__
-|           |-- SingleString.cpython-37.pyc
-|           `-- __init__.cpython-37.pyc
-|-- setup.py
-`-- test_py
-    |-- __init__.py
-    |-- __pycache__
-    |   |-- __init__.cpython-37.pyc
-    |   |-- test_geometry.cpython-37-pytest-5.4.1.pyc
-    |   |-- test_graph.cpython-37-pytest-5.4.1.pyc
-    |   |-- test_list.cpython-37-pytest-5.4.1.pyc
-    |   `-- test_string.cpython-37-pytest-5.4.1.pyc
-    |-- test_geometry.py
-    |-- test_graph.py
-    |-- test_list.py
-    `-- test_string.py
+└─MyMiniPyLib
+    ├─.idea
+    │  └─inspectionProfiles
+    ├─minipy
+    │  ├─function
+    │  │  └─__pycache__
+    │  ├─geometry
+    │  │  └─__pycache__
+    │  ├─graph
+    │  │  └─__pycache__
+    │  ├─list
+    │  │  └─__pycache__
+    │  ├─string
+    │  │  └─__pycache__
+    │  └─__pycache__
+    ├─test_py
+    │  └─__pycache__
+    └─__pycache__
 ```
 
 #### 3. 测试
